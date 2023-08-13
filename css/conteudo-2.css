@@ -1,0 +1,37 @@
+.conteudo-2 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.cont-2 {
+    margin-top: 50px;
+}
+.cont-2 h2 {
+    color: #000000ad;
+}
+
+.conteudo-varias {
+    margin-top: 50px;
+    margin: 40px 50px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+.conteudo-varias a {
+    text-decoration: none;
+    color: #000000ad;
+}
+.conteudo-varias p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media (max-width:768px) {
+    .conteudo-varias {
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+    }
+}

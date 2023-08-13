@@ -1,0 +1,109 @@
+.conteudo-1 {
+    background-color: rgba(192, 192, 192, 0.258);
+    height: 100vh;
+    width: 100%;
+}
+
+.planos {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+.planos h2 {
+    margin-top: 50px;
+    text-align: center;
+    color: #000000ad;
+}
+
+.cards-blocos {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cards {
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.desc-cards h3 {
+    color: #000000ad;
+}
+
+.rosa {
+    margin-top: 20px;
+    color: rgb(215,11,82);
+}
+.azul {
+    margin-top: 20px;
+    color: blue;
+}
+.amarelo {
+    margin-top: 20px;
+    color: yellow;
+}
+.verde {
+    margin-top: 20px;
+    color: yellowgreen;
+}
+
+.desc-cards p {
+    margin-top: 20px;
+    color: #000000ad;
+}
+
+.preco {
+    text-align: center;
+}
+.preco span {
+    font-size: 1.5rem;
+}
+.preco p {
+    font-size: 1rem;
+}
+
+.desc-cards a {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.button-panos {
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.rosa-b {
+    background-color: rgb(215,11,82);
+}
+.azul-b {
+    background-color: blue;
+}
+.amarelo-b {
+    background-color: yellow;
+}
+.verde-b {
+    background-color: yellowgreen;
+}
+
+@media (max-width:768px) {
+    .conteudo-1 {
+        background-color: rgba(192, 192, 192, 0.258);
+        height: auto;
+        width: 100%;
+    }
+    .cards-blocos {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+}
